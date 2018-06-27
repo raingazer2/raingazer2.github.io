@@ -1,0 +1,161 @@
+#fishes {
+	float: left;
+	margin-top: -45px;
+}
+
+.swim_sequence {
+	margin-left: 10px;
+}
+
+.big_fish_attaack {
+	display: inline-block;
+	background-repeat: no-repeat;
+	width: 325px;
+	height: 135px;
+	position: relative;
+	animation: 2s big_fish_attaack 3.3s 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes big_fish_attaack {
+	0% { background-position: -500px; 0px; background-image: url(../images/home/fishes/02._big_fish_attaack.png); }
+	99% { background-position: 0px; 0px; background-image: url(../images/home/fishes/02._big_fish_attaack.png); }
+	100% { background-position: 0px; 0px; }
+}
+
+.big_fish_attaack_to_right {
+	display: inline-block;
+	background-repeat: no-repeat;
+	width: 325px;
+	height: 135px;
+	position: relative;
+	animation: 4.2s big_fish_attaack_to_right 5.2s 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes big_fish_attaack_to_right {
+	0% { background-position: 0px; 0px; background-image: url(../images/home/fishes/02._big_fish_attaack.png); }
+	65% { background-position: 0px; 0px; background-image: url(../images/home/fishes/02._big_fish_attaack.png); }
+	100% { background-position: 300px; 0px; background-image: url(../images/home/fishes/02._big_fish_attaack.png); }
+}
+
+.scattered_fish_from_left {
+	display: inline-block;
+	background-repeat: no-repeat;
+	width: 325px;
+	height: 135px;
+	position: relative;
+	animation: 2s scattered_fish_from_left 1s 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes scattered_fish_from_left {
+	0% { background-position: -500px; 0px; background-image: url(../images/home/fishes/01._scattered_fish.png); }
+	99% { background-position: 0px; 0px; background-image: url(../images/home/fishes/01._scattered_fish.png); }
+	100% { background-position: 0px; 0px; }
+}
+
+.scattered_fish_to_right {
+	display: inline-block;
+	background-repeat: no-repeat;
+	width: 325px;
+	height: 135px;
+	position: relative;
+	animation: 6s scattered_fish_to_right 2.7s 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes scattered_fish_to_right {
+	0% { background-position: 0px; 0px; background-image: url(../images/home/fishes/01._scattered_fish.png); }
+	75% { background-position: 0px; 0px; background-image: url(../images/home/fishes/01._scattered_fish.png); }
+	100% { background-position: 250px; 0px; background-image: url(../images/home/fishes/01._scattered_fish.png); }
+}
+
+.big_fish_runs_off {
+	display: inline-block;
+	background-repeat: no-repeat;
+	width: 325px;
+	height: 135px;
+	margin-left: 22px;
+	position: relative;
+	animation: 2.1s big_fish_runs_off 10s 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes big_fish_runs_off {
+	0% { background-position: 500px; 0px; background-image: url(../images/home/fishes/03._big_fish_runs_off.png); }
+	99% { background-position: 0px; 0px; background-image: url(../images/home/fishes/03._big_fish_runs_off.png); }
+	100% { background-position: 0px; 0px; }
+}
+
+.big_fish_runs_off_to_left {
+	display: inline-block;
+	background-repeat: no-repeat;
+	width: 325px;
+	height: 135px;
+	position: relative;
+	animation: 5s big_fish_runs_off_to_left 12s 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes big_fish_runs_off_to_left {
+	0% { background-position: 0px; 0px; background-image: url(../images/home/fishes/03._big_fish_runs_off.png); }
+	75% { background-position: 0px; 0px; background-image: url(../images/home/fishes/03._big_fish_runs_off.png); }
+	100% { background-position: -195px; 0px; background-image: url(../images/home/fishes/03._big_fish_runs_off.png); }
+}
+
+.little_fish_unite {
+	display: inline-block;
+	background-repeat: no-repeat;
+	width: 325px;
+	height: 135px;
+	position: relative;
+	animation: 1.5s little_fish_unite 12s 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes little_fish_unite {
+	0% { background-position: 500px; 0px; background-image: url(../images/home/fishes/04._little_fish_unite.png); }
+	99% { background-position: 0px; 0px; background-image: url(../images/home/fishes/04._little_fish_unite.png); }
+	100% { background-position: 0px; 0px; }
+}
+
+.little_fish_unite_to_left {
+	display: inline-block;
+	background-repeat: no-repeat;
+	width: 325px;
+	height: 135px;
+	position: relative;
+	animation: 4.7s little_fish_unite_to_left 13.4s 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes little_fish_unite_to_left {
+	0% { background-position: 0px; 0px; background-image: url(../images/home/fishes/04._little_fish_unite.png); }
+	67% { background-position: 0px; 0px; background-image: url(../images/home/fishes/04._little_fish_unite.png); }
+	100% { background-position: -375px; 0px; background-image: url(../images/home/fishes/04._little_fish_unite.png); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
