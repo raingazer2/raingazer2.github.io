@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+.single-features a:visited {
+    color: #7F0000;
+    z-index: 1;
+}
+
+.btn-common:visited {
+    color: #7F0000;
+    border-color: #7F0000;
+    z-index: 1;
+}
+
 @media only screen and (max-width : 768px) {
     #navbar-sm {margin-top: 50px !important; margin-bottom: -25px;}
     #last-laugh a {position: relative; margin: 0 0 0 0 !important;}
